@@ -1,0 +1,22 @@
+---
+title: "Bayes DL Final Project"
+author: "Tianna Chan, Peirong Hao"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# https://yihui.org/knitr/options/
+knitr::opts_chunk$set(message=FALSE, 
+                      warning=FALSE, 
+                      error=FALSE, 
+                      echo = FALSE, 
+                      fig.pos = "H" ,
+                      fig.align = 'center',
+                      tidy=TRUE, tidy.opts=list(width.cutoff=80))
+
+library(tidyverse)
+library(knitr)
+set.seed(123)
+library(tidyr)       ## Used to tidy data
+```
