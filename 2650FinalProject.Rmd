@@ -1,0 +1,54 @@
+---
+title: "Introduction to Bayesian Deep Learning Paper"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Introduction
+
+Deep learning, a machine learning technique based on neural networks, has been widely applied in numerous fields ranging from image and speech recognition to natural language processing. Yet, as these techniques mature, researchers continue to explore various ways to enhance the robustness, interpretability, uncertainty, and accuracy of deep learning models.
+
+An intriguing example among these researches is Bayesian deep learning. Different from traditional deep learning methods, it integrates a Bayesian probabilistic framework and provides arguably a more interpretable result. In this project, we delve into the results from the NeurlIPS 2020 paper, “Bayesian Deep Learning and a Probabilistic Perspective of Generalization,” by Andrew Gordon Wilson and Pavel Izmailov from New York University. 
+
+To explain this paper, we will start by outlining the important concepts and functions that are necessary for a thorough understanding. Then, with sufficient background knowledge, we will then proceed to summarize the findings from the paper.
+
+# Background (Explaining some basic terms used in the paper)
+
+## Deep learning
+
+We will start with introducing the concept of neural networks. A basic neural network consists of interconnected layers of neurons (nodes), denoted the input layer, one or more hidden layers, and an output layer. In deep learning, the neural networks have multiple hidden layers, which are typically named Deep neural networks. Based on these deep neural networks, deep learning techniques extract features from complex input data.
+
+In explaining the paper and comparing it with traditional deep learning methods in later sections, we will encounter two types of neural networks - Feedforward and Convolutional neural networks (CNNs). 
+
+1. **Feedforward neural networks**:
+
+Each node contains a weight of previous inputs and followed by an activation function to produce an output. To optimize these networks, back-propagation minimizes the error backward by calculating the respective partial derivatives and using gradient descent.
+
+2. **Convolutional neural networks (CNNs)**:
+
+Added an additional spatial structure that contains convolutional layers, pooling layers, and fully-connected layers. The convolutional layers extract local spatial patterns, the pooling layers then reduce the spatial dimensions, and finally the fully-connected layers are basically the feedforward neural networks that outputs …………..
+
+## Bayesian Inference
+
+- **Prior & Posterior**
+- **Likelihood function**
+- **Marginalization**
+- **Gaussian Process**
+- **Monte Carlo approximation**
+- **Monte Carlo Dropout**
+
+## Other terms
+
+- **Stochastic Gradient Descent**
+- **Learning Rates**
+- **Deep ensemble**
+- **Double Descent**
+
+# Summary from Paper 
+
+- **MultiSWAG**
+- **Deep ensemble**
+
+# Conclusion
